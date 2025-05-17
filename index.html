@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prithiviraaj S - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    nav {
+      background: white;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .nav-link {
+      font-weight: 600;
+      color: #333;
+      margin-right: 20px;
+      position: relative;
+    }
+
+    .nav-link:hover {
+      color: #0d6efd;
+    }
+
+    .nav-link::after {
+      content: "";
+      display: block;
+      width: 0;
+      height: 2px;
+      background: #0d6efd;
+      transition: width 0.3s;
+      margin-top: 2px;
+    }
+
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px 40px;
+    }
+
+    .profile-img {
+      width: 400px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 5px solid white;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .section {
+      background: rgba(255,255,255,0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 40px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #0d6efd;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    .btn-custom {
+      background: #0d6efd;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 30px;
+      text-transform: uppercase;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-custom:hover {
+      background: white;
+      color: #0d6efd;
+      border: 2px solid #0d6efd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      .nav-link {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Prithiviraaj S</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#career-objective">Career</a></li>
+        <li class="nav-item"><a class="nav-link" href="#internship">Internship</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header>
+  <img src="my_image.jpg" alt="Profile Image" class="profile-img">
+  <h1 class="mt-4">Hello, I'm Prithiviraaj S</h1>
+  <p class="lead">Front End Developer | Full Stack Enthusiast | UI/UX Designer</p>
+  <a href="PRITHIVIRAAJ_RESUME.pdf" class="btn btn-custom mt-3">Download Resume</a>
+</header>
+
+<div class="container">
+  <div id="career-objective" class="section">
+    <h2>Career Objective</h2>
+    <p>Passionate software developer with hands-on experience in full stack
+      development, UI/UX design, and prompt engineering. Skilled in Java, C,
+      HTML, CSS, JavaScript, React, and Firebase, with a focus on building user-
+      centric, innovative solutions using modern technologies.</p>
+  </div>
+
+  <div id="internship" class="section">
+    <h2>Internship</h2>
+    <ul>
+      <li><strong>MERN Stack Training</strong> - Sammegh Technologies, Bangalore (Dec 2023 - Jan 2024)</li>
+      <li><strong>Full Stack Development</strong> - Hackwit Technologies, Chennai (June 2024 - July 2024)</li>
+    </ul>
+  </div>
+
+
+  <div id="participation" class="section">
+    <h2>Participation</h2>
+    <ul>
+      <li><strong>KRETA'23</strong> - TCE, Madurai (April 2023)</li>
+<li><strong>AI for Image Processing, Computer Vision and Robotics Workshop</strong> - TCE, Madurai (March 2024)</li>
+<li><strong>Wonders of AI - 24H Hackathon</strong> - Kalasalingam University, Virudhunagar (March 2024)</li>
+<li><strong>HACKATHON-2K24</strong> - K.L.N, Madurai (April 2024)</li>
+<li><strong>GALACTIC PROBLEM SOLVER - NASA Space Apps Challenge</strong> (October 2024)</li>
+<li><strong>TECHATHON'24 - Project Presentation (First Place)</strong> - Sri Ramakrishna College of Engineering (October 2024)</li>
+<li><strong>Forward Collision Warning (FCW) System for ADAS</strong> - TATA ELEXI TELEPORT SEASON 2 (November 2024)</li>
+<li><strong>Menstrual Health Assistance Chatbot (Gemma + RAG)</strong> - Google Cloud AI for Impact APAC Hackathon (November 2024)</li>
+<li><strong>Prompt Engineering (First Place, ₹5000 Cash Prize)</strong> - Kalasalingam University, Virudhunagar (March 2025)</li>
+
+    </ul>
+
+  </div>
+
+  <div id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>TO-DO LIST (Firebase Integration):</strong> A real-time to-do list manager allowing users to add, update, and delete tasks. Integrated with Firebase for cloud storage and synchronization.</li>
+      <li><strong>Portfolio Webpage</strong>Designed and built a personal portfolio website using HTML, CSS, and JavaScript. Showcases projects, skills, certifications, and includes a downloadable Resume</li>
+      <li><strong>Budget Planner Webpage:</strong> A user-friendly finance management tool enabling users to log income/expenses, visualize budgets, and manage financial categories. Created using HTML, CSS, and JavaScript.</li>
+      <li><strong>Shopping List Planner:</strong> A web app to organize groceries and daily items. Includes quantity dropdowns, CSV download, session persistence, and WhatsApp sharing options.</li>
+    </ul>
+  </div>
+
+  <div id="certifications" class="section">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Supervised Machine Learning (Stanford | Coursera)</li>
+      <li>ChatGPT for Everyone (GUVI)</li>
+      <li>Generative AI (GUVI)</li>
+      <li>ChatGPT for Coders (Great Learning)</li>
+      <li>Social Networks (NPTEL)</li>
+      <li>Front-End Development (Great Learning)</li>
+      <li>Oracle SQL (Great Learning)</li>
+    </ul>
+  </div>
+
+  <div id="skills" class="section">
+    <h2>Skills</h2>
+    <ul>
+      <li>Programming Languages: Java, C, C++, Python</li>
+      <li>Web Development: HTML, CSS, JavaScript</li>
+      <li>Database: MySQL, Google Firebase</li>
+      <li>Prompt Engineering</li>
+      <li>UI/UX Design: Figma</li>
+    </ul>
+  </div>
+
+  <div id="contact" class="section">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: prithiviraaj12102004@gmail.com</li>
+      <li>Phone: +91-9442631272</li>
+      <li>LinkedIn: <a href="https://linkedin.com/in/prithviraaj04" target="_blank">linkedin.com/in/prithviraaj04</a></li>
+      <li>GitHub: <a href="https://github.com/Prithiviraaj-1210" target="_blank">github.com/Prithiviraaj-1210</a></li>
+    </ul>
+  </div>
+</div>
+
+<footer>
+  &copy; I declare that all the information provided above is true and complete to the best of my knowledge, and I take responsibility for its accuracy.  
+  <br>
+  Prithiviraaj S
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
